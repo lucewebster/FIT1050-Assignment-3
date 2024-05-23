@@ -817,6 +817,9 @@ body, html {
         color: var(--bodyTextColorWhite);
         text-transform: uppercase;
         color: #fff;
+        font-family: 'Abel', sans-serif;
+        letter-spacing: 0.5ch;
+        text-align: center;
 
     }
     #cs-footer-269 .cs-nav {
