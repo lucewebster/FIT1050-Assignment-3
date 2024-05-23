@@ -13,15 +13,20 @@
       box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
       position: fixed;
       z-index: 10000;
+      top: 0;
+      margin: 0;
+      left: 0;
+      right: 0;
     }
     #cs-navigation .cs-container {
       width: 100%;
       max-width: 80rem;
-      margin: auto;
+      margin: 0;
       display: flex;
-      justify-content: flex-end;
+      justify-content: space-between;
       align-items: center;
       gap: 1.5rem;
+      padding: 0;
     }
     #cs-navigation .cs-toggle {
       display: none;
@@ -45,11 +50,11 @@
       object-fit: contain;
     }
     #cs-navigation .cs-ul {
-      width: 100%;
+      width: auto%;
       margin: 0;
       padding: 0;
       display: flex;
-      justify-content: flex-start;
+      justify-content: flex-end;
       align-items: center;
       /* 20px - 36px */
       gap: clamp(1.25rem, 2.6vw, 2.25rem);
@@ -57,10 +62,12 @@
     #cs-navigation .cs-li {
       list-style: none;
       padding: 2rem 0;
+      text-align: end;
 
       /* prevent flexbox from squishing it */
       flex: none;
     }
+
     #cs-navigation .cs-li-link {
       /* 14px - 16px */
       font-size: clamp(0.875rem, 1vw, 1rem);
@@ -76,6 +83,7 @@
       line-height: 1.2em;
       letter-spacing: 3px;
       color: #fff;
+      text-align: right;
     }
     #cs-navigation .cs-li-link:hover:before {
       width: 100%;
@@ -733,6 +741,7 @@
 <--- -------------------------- -*/
 
 /* Mobile - 360px */
+/* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
     #cs-footer-269 {
         /* 60px - 100px top and bottom */
@@ -825,18 +834,18 @@
     #cs-footer-269 .cs-logo-group {
         width: auto;
         /* pushes everything to the right of it as far as possible in a flexbox */
-        margin-right: auto;
     }
     #cs-footer-269 .cs-text {
         width: 80%;
         max-width: 19.0625rem;
         margin: 0;
+        text-align: center;
     }
     #cs-footer-269 .cs-nav,
     #cs-footer-269 .cs-contact {
         /* 8px - 12px */
         margin-top: clamp(0.5rem, 1.2vw, 0.75rem);
     }
-}                               
+}                           
   
                                   
