@@ -532,7 +532,7 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
     #subscribe-1719 {
-      background-color: #F7F7F7;
+      background-color: #ED9B33;
       overflow: hidden;
       display: flex;
       flex-direction: column;
@@ -565,10 +565,23 @@
       z-index: 1;
     }
     #subscribe-1719 .cs-title {
-      max-width: 20ch;
+      max-width: 30ch;
+      text-transform: uppercase;
+      color: #623413;
+      font-family: 'Abel', sans-serif; 
+      line-height: 1.2em;
+      font-size: xx-large;
+      letter-spacing: 3px;
     }
     #subscribe-1719 .cs-text {
       margin-bottom: 1rem;
+      color: #623413;
+      text-transform: uppercase;
+      font-family: 'Abel', sans-serif; 
+      line-height: 1.2em;
+      font-size: medium;
+      letter-spacing: 3px;
+
     }
     #subscribe-1719 .cs-text:last-of-type {
       margin-bottom: 2rem;
@@ -683,6 +696,7 @@
       position: absolute;
       left: 50%;
     }
+
   }
   /* Desktop - 1024px */
   @media only screen and (min-width: 64rem) {
@@ -710,6 +724,7 @@
     #subscribe-1719 .cs-background {
       margin-left: 7.375rem;
     }
+
   }
                                   
 
