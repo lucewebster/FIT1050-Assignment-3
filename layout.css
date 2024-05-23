@@ -9,7 +9,7 @@
       /* prevents padding and border from affecting height and width */
       box-sizing: border-box;
       padding: 0 1rem;
-      background-color: #fff;
+      background-color: #623413;
       box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
       position: fixed;
       z-index: 10000;
@@ -101,7 +101,7 @@
       /* prevents padding from adding to the width */
       box-sizing: border-box;
       padding: 0 1.5rem;
-      color: #fff;
+      color: #623413;
       background-color: var(--primary);
       border-radius: 0.25rem;
       display: inline-block;
