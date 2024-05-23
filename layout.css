@@ -20,7 +20,7 @@ body, html {
       position: fixed;
       z-index: 10000;
     }
-
+  }
     #cs-navigation .cs-container {
       width: 100%;
       max-width: 80rem;
