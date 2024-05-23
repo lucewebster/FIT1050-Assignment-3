@@ -176,8 +176,9 @@
       background-color: #623413;
       display: flex;
       flex-direction: column; 
+      justify-content: center;
       /* aligns content to the left, set to center to centrally align */
-      align-items: flex-start;
+      align-items: center;
       position: relative;
       z-index: 1;
     }
@@ -195,13 +196,13 @@
     }
     #sbs-r-1892 .cs-content {
       /* set text align to left if content needs to be left aligned */
-      text-align: left;
+      text-align: center;
       width: 100%;
       max-width: 35.625rem;
       display: flex;
       flex-direction: column;
       /* centers content horizontally, set to flex-start to left align */
-      align-items: flex-start;
+      align-items: center;
       position: relative;
       z-index: 3;
     }
@@ -272,10 +273,10 @@
       right: 0;
     }
     #sbs-r-1892 .cs-info {
-      width: 50%;
-      max-width: 19.0625rem;
+      width: 70%;
+      max-width: 20rem;
       padding: 6.25em 2.5em;
-      background-color: 623413;
+      background-color: #623413;
       border-radius: 14rem;
       display: flex;
       justify-content: center;
@@ -311,6 +312,7 @@
       font-family: 'Abel', sans-serif; 
       letter-spacing: 3px;
       text-transform: uppercase;
+      text-align: center;
     }
     #sbs-r-1892 .cs-text {
       margin-bottom: 0.75rem;
@@ -362,6 +364,7 @@
         font-size: xx-large;
         letter-spacing: 3px;
         text-transform: uppercase;
+        text-align: center;
     }
 
     }
