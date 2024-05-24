@@ -58,23 +58,21 @@ body, html {
     }
 
     #cs-navigation .cs-ul {
-        width: auto%;
-        margin: 0;
-        padding: 0;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        margin-right: 0;
-        text-align: right;
-        /* 20px - 36px */
-        gap: clamp(1.25rem, 2.6vw, 2.25rem);
-    }
+      width: auto%;
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      margin-right: 0;
+      text-align: end;
+      /* 20px - 36px */
+      gap: clamp(1.25rem, 2.6vw, 2.25rem);
+  }
 
     #cs-navigation .cs-li {
       list-style: none;
       padding: 2rem 0;
-      align-items: center;
-      text-align: right;
+      align-items: end;
       text-align: end;
       /* prevent flexbox from squishing it */
       flex: none;
@@ -85,17 +83,16 @@ body, html {
       font-size: clamp(0.875rem, 1vw, 1rem);
       line-height: 1.5em;
       text-decoration: none;
-      margin: 0;
       color: var(--bodyTextColor);
       display: block;
-      position: relative;
       font-size: x-large;
       font-family: 'Abel', sans-serif;
       text-transform: uppercase;
       line-height: 1.2em;
       letter-spacing: 3px;
       color: #fff;
-      text-align: end;
+      text-align: center;
+      position: flex;
 
     }
 
