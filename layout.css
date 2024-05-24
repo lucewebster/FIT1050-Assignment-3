@@ -506,7 +506,7 @@ body, html {
     letter-spacing: 8px;
     font-weight: 500;
     padding-left: 40%;
-    padding-top: 10%;
+    padding-top: 5%;
   }
 
   #map-720 .cs-text {
@@ -519,12 +519,14 @@ body, html {
     font-family: 'Abel', sans-serif;
     letter-spacing: 6px;
     padding-left: 40%;
+    padding-top: 1%;
+    padding-bottom: 1%;
   }
   
   #map-720 .cs-logo-fb {
     position: absolute;
     top: 73%;
-    right: 43%;
+    right: 44.5%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -535,7 +537,7 @@ body, html {
   #map-720 .cs-logo-ig {
     position: absolute;
     top: 73%;
-    right: 49%;
+    right: 49.5%;
     display: flex;
     flex-direction: column;
     align-items: center;
