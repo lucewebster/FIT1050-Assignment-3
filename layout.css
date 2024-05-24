@@ -224,7 +224,7 @@ body, html {
     #sbs-r-1892 {
       width: 100%;
       padding: var(--sectionPadding);
-      background-color: #623413;
+      background-color: #ED9B33;
       display: flex;
       flex-direction: column; 
       justify-content: center;
@@ -269,10 +269,10 @@ body, html {
       width: 32.625em;
       height: 42.5em;
       box-sizing: border-box;
-      background-color: #623413;
+      background-color: #ED9B33;
       overflow: hidden;
-      border: 8px solid #623413;
-      border-radius: 16.25rem;
+      border: 8px solid #ED9B33;
+      border-radius: 0;
       position: absolute;
       right: 0;
       z-index: -1;
@@ -344,7 +344,7 @@ body, html {
       text-align: center;
       max-width: 13.9375em;
       margin: 0;
-      color: #ED9B33;
+      color: #623413;
     }
     #sbs-r-1892 .cs-bold {
       /* 16px - 24x */
@@ -352,14 +352,14 @@ body, html {
       font-weight: 600;
       line-height: 1.2em;
       margin: 0 0 0.25rem;
-      color: #ED9B33;
+      color: #623413;
       display: block;
     }
     #sbs-r-1892 .cs-text-large {
       font-size: 1rem;
       line-height: 2.0em;
       margin: 0 0 0.75rem;
-      color: #ED9B33;
+      color: #623413;
       font-family: 'Abel', sans-serif; 
       letter-spacing: 3px;
       text-transform: uppercase;
@@ -367,7 +367,7 @@ body, html {
     }
     #sbs-r-1892 .cs-text {
       margin-bottom: 0.75rem;
-      color: #ED9B33;
+      color: #623413;
     }
     #sbs-r-1892 .cs-text:last-of-type {
       margin-bottom: 2rem;
@@ -399,7 +399,7 @@ body, html {
       content: "";
       width: 0;
       height: 100%;
-      background: #623413;
+      background:#ED9B33;
       opacity: 1;
       position: absolute;
       top: 0;
@@ -409,7 +409,7 @@ body, html {
     }
 
     #sbs-r-1892 .cs-title {
-        color:#ED9B33;
+        color:#623413;
         font-family: 'Abel', sans-serif; 
         line-height: 1.2em;
         font-size: xx-large;
