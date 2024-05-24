@@ -192,7 +192,7 @@ body, html {
     }
     #gallery-565 .cs-picture {
         /* 268px - 550px */
-        height: clamp(16.75rem, 37vw, 34.375rem);
+        height: clamp(30rem, 50vw, 45rem);
         aspect-ratio: initial;
     }
 }
