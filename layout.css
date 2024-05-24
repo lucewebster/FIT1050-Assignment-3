@@ -629,27 +629,32 @@ body, html {
     }
     #subscribe-1719 .cs-title {
       max-width: 40ch;
+      line-height: 1.8em;
       text-transform: uppercase;
       color: #623413;
       font-family: 'Abel', sans-serif; 
       line-height: 1.2em;
       font-size: xx-large;
-      letter-spacing: 3px;
+      letter-spacing: 4px;
       text-align: center;
+      font-weight: 700;
+      margin-bottom: 0.2rem;
     }
     #subscribe-1719 .cs-text {
       margin-bottom: 1rem;
+      line-height: 1.8em;
       color: #623413;
       text-transform: uppercase;
       font-family: 'Abel', sans-serif; 
       line-height: 1.2em;
       font-size: medium;
-      letter-spacing: 3px;
-      text-align: center;
+      letter-spacing: 4px;
+      text-align: left;
+      font-weight: 500;
 
     }
     #subscribe-1719 .cs-text:last-of-type {
-      margin-bottom: 2rem;
+      margin-bottom: 3rem;
     }
     #subscribe-1719 .cs-form {
         width: 100%;
