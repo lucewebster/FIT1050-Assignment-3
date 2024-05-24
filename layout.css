@@ -521,13 +521,24 @@ body, html {
     letter-spacing: 6px;
     padding-left: 40%;
   }
-
-  #map-720 map img {
-    margin-top: rem;
-    padding-left: 60%;
+  
+  #map-720 .cs-logo {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
-
+  
+  #map-720 .cs-logo img {
+    width: 50px; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 10px; /* Adjust as needed */
+  }
 }
+
 
 /*-- -------------------------- -->
 <---         Subscribe          -->
