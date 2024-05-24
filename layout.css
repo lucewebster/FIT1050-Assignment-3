@@ -275,7 +275,7 @@ body, html {
       border: 22px solid #ED9B33;
       border-radius: 0;
       position: absolute;
-      right: 0;
+      left: 20%;
       z-index: -1;
     }
     #sbs-r-1892 .cs-picture img {
@@ -286,6 +286,7 @@ body, html {
       top: 0;
       left: 0;
       transition: transform 0.7s;
+      padding-left: 0%;
     }
     #sbs-r-1892 .cs-graphic {
       height: auto;
