@@ -125,22 +125,25 @@
 <!-- ============================================ -->
 
 <section id="map-720">
-    <!--Download the pin icon, in Figma create a 1920x600 rectangle and make its background a screenshot of the Google Maps location of your clients business location, make sure their actual location is at the center. Doesn't have to be EXACT. Then add the pin in Figma and absolutely position it where its location is in the map.  Highlight everything and hit CTRL G to group it, then export that section as a png.  Now you have your map graphic made for your client. Make an 800X1000 center crop of the image to load on mobile. Then remove this img tag for the icon. -->
-    <picture class="cs-background">
-        <img loading="lazy" decoding="async" src="images/MAP.png" alt="map" width="1280" height="600">
-    </picture>
-    <div class="text-container">    
-        <h2 class = "cs-title">Find us physically</h2>
-        <p class = "cs-text-large"></p>
-            right opposite malvern valley primary school<br>
-            right beside the phoenix park community centre<br>
-            a stone’s throwaway from chadstone shopping centre<br>
-            YOU COULD FIND US HERE</p>
+    <div class="text-container">
+        <h2 class="cs-title">Find us physically</h2>
+        <p class="cs-text">
+            &bull;Right opposite Malvern Valley Primary School<br>
+            &bull;Right beside the Phoenix Park Community Centre<br>
+            &bull;A stone’s throw away from Chadstone Shopping Centre
         </p>
-            <h2 class = "cs-title">Find us digitally</h2>
+        <h2 class="cs-title">Find us digitally</h2>
+    </div>
+    <div class="cs-background">
+        <picture>
+            <!-- Mobile Image -->
+            <source media="(max-width: 600px)" srcset="images/MAP.png">
+            <!-- Tablet and above Image -->
+            <source media="(min-width: 601px)" srcset="images/MAP.png">
+            <img loading="lazy" decoding="async" src="images/MAP.png" alt="map">
+        </picture>
     </div>
 </section>
-                                       
 
 <!-- ============================================ -->
 <!--                  Subscribe                   -->

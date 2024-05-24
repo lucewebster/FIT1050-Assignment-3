@@ -483,6 +483,7 @@ body, html {
       left: 0;
       z-index: 0;
   }
+
   #map-720 .cs-background img {
       position: absolute;
       top: 0;
@@ -495,17 +496,31 @@ body, html {
       padding-left: 20%;
   }
 
-  #map-720 .text-container {
-    width: 70%;
+  #map-720 .cs-title {
+    width: 100%;
     padding: 0rem;
-    color: #000;
+    color: #ED9B33;
+    font-size: xx-large;
+    line-height: 1.8em;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 8px;
+    font-weight: 500;
+    padding-left: 40%;
+  }
+
+  #map-720 .cs-text {
+    width: 100%;
+    padding: 0rem;
+    color: #ED9B33;
     font-size: medium;
     line-height: 1.8em;
-    text-align: end;
-    align-items: start;
+    text-align: left;
     text-transform: uppercase;
     font-family: 'Abel', sans-serif;
     letter-spacing: 6px;
+    padding-left: 40%;
   }
 
 }
